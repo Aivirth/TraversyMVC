@@ -4,10 +4,10 @@
     //URL Root
     define('URLROOT', 'http://localhost/traversy_cms');
     //Site Name
-    define('SITENAME', 'TraversyMVC');
+    define('SITENAME', 'SharePosts');
 
     //Database Configuration
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
     define('DB_PASS', '');
-    define('DB_NAME', 'tmvc');
+    define('DB_NAME', 'shareposts');
