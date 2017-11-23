@@ -20,7 +20,8 @@
         public function about()
         {
             $data = [
-                'title' => 'About us'
+                'title' => 'About us',
+                'description' => 'App to share osts with other users'
             ];
 
             $this->view('pages/about', $data);
