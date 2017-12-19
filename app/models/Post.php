@@ -39,6 +39,21 @@
             }
         }
 
+        public function updatePost($data){
+            $this->db->query('UPDATE posts SET title = :title, body = :body WHERE id = :id )');
+            // Bind values
+            $this->db->bind(':id', $data['id']);
+            $this->db->bind(':title', $data['title']);
+            $this->db->bind(':body', $data['body']);
+        
+            // Execute
+            if($this->db->execute()){
+                return true;
+            } else {
+                return false;
+            }
+        }
+
         public function getPostById($id){
             $this->db->query('SELECT * FROM posts WHERE id = :id');
             $this->db->bind(':id', $id);
