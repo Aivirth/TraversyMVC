@@ -165,7 +165,7 @@
       $_SESSION['user_email'] = $user->email;
       $_SESSION['user_name'] = $user->name;
       
-      redirect('pages/index');
+      redirect('posts');
     }
 
     public function logout(){
@@ -176,12 +176,6 @@
       redirect('users/login');
     }
 
-    public function isLoggedIn(){
-      if(isset($_SESSION['user_id'])){
-        return true;
-      }else{
-        return false;
-      }
-    }
+
 
   }
