@@ -19,9 +19,9 @@ Follow the instructions to complete the installation.
 * Node.js
 * Mysql Database
 
-```
+
 Install [XAMPP](https://www.apachefriends.org/it/index.html) for an easy quickstart
-```
+
 
 ### Config File
 
