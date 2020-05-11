@@ -47,7 +47,7 @@ define('DB_NAME', 'shareposts');
 
 ### htaccess file
 
-Modify che .htaccess file inside the public folder to match the name of your installation folder
+Modify the .htaccess file inside the public folder to match the name of your installation folder
 
 ### Install the Database
 
